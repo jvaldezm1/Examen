@@ -6,11 +6,6 @@ package javaapplication14;
 
 
 public class NewJFrame extends javax.swing.JFrame {
-
-int  text;
-int text2;
-int text3;
-
 String datos;
 
     public NewJFrame() {
@@ -144,25 +139,31 @@ String datos;
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel1AncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_jLabel1AncestorAdded
-      pantalla.setText(pantalla.getText()+(text));
+      pantalla.setText(pantalla.getText()+());
     }//GEN-LAST:event_jLabel1AncestorAdded
 
     private void jLabel2AncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_jLabel2AncestorAdded
-   pantalla.setText(pantalla.getText()+(text2));
+   pantalla.setText(pantalla.getText()+());
     }//GEN-LAST:event_jLabel2AncestorAdded
 
     private void jLabel3AncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_jLabel3AncestorAdded
-    pantalla.setText(pantalla.getText()+(""));
+    pantalla.setText(pantalla.getText()+());
     }//GEN-LAST:event_jLabel3AncestorAdded
 
     private void calcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_calcularActionPerformed
-       text=Integer.parseInt(pantalla.getText());
-        text2=Integer.parseInt(pantalla.getText());
-         text3=Integer.parseInt(pantalla.getText());
+       text=Integer.parseInt(pantalla.getText()
        
        switch (datos){
        
-          case "1" : 
+          case "1" : pantalla.setText(Integer.toString());
+           break;
+           
+          case "2": pantalla.setText(Integer.toString());
+          break;
+          
+          case "3": pantalla.setText(Integer.toString(s));
+          break;
+           
        
        }
       
